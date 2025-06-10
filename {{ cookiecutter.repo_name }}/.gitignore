@@ -33,3 +33,4 @@ data/raw/*
 !data/raw/.gitkeep
 # Ignore configuration files
 config/config.yaml
+!config/config.example.yaml
