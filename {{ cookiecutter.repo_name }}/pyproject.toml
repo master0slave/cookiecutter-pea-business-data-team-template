@@ -1,0 +1,21 @@
+[project]
+name = "{{ cookiecutter.repo_name }}"
+version = "0.1.0"
+description = "{{ cookiecutter.description }}"
+authors = [
+    { name = "{{ cookiecutter.author_name }}" }
+]
+readme = "README.md"
+requires-python = ">= {{ cookiecutter.python_version }}"
+python = "{{ cookiecutter.python_version }}"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "statsmodels",
+    "jupyterlab",
+    "pyyaml"
+]

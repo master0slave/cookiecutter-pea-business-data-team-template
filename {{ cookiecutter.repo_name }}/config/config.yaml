@@ -1,0 +1,26 @@
+# -----------------------------
+# ⚙️ Project Configuration
+# -----------------------------
+
+project:
+  name: "{{ cookiecutter.project_name }}"
+  author: "{{ cookiecutter.author_name }}"
+  version: "0.1.0"
+  description: "{{ cookiecutter.description }}"
+
+# -----------------------------
+# 📦 Project Paths
+# -----------------------------
+paths:
+  root: "{{ cookiecutter.repo_name }}"
+  config: "config/config.yaml"
+
+# -----------------------------
+# 📁 Data Paths
+# -----------------------------
+path_data:
+  raw: "data/raw"
+  interim: "data/interim"
+  processed: "data/processed"
+  external: "data/external"
+
