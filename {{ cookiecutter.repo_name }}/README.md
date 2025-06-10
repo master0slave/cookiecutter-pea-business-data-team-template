@@ -45,6 +45,15 @@ source .venv/bin/activate
 # ติดตั้ง dependencies
 uv pip install -r pyproject.toml
 ```
+**Note**
+ถ้าต้องการติดตั้ง python package เพิ่ม 
+```bash
+uv add <python-package-name>
+
+# ตัวอย่าง
+uv add SQLAlchemy
+```
+
 
 ### 3️⃣ เริ่มใช้งานโปรเจกต์
 กำหนด config.ymal โดยการ copy ไฟล์ `config.example.yaml` วางไว้ใน Folder 🗂️ `config/` แล้วเปลี่ยนชื่อเป็น `config.yaml` 
